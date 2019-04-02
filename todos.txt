@@ -1,12 +1,32 @@
 TO-Dos
 
 General
-
+- git README
 
 Resuscitation
-
+- test startup scripts
+- finish patches
+    - redo pitch settings for new string assignments
+    - tweak sounds to be less muddy/boomy
+    - cut film piezo input when not needed (sections 2 and 3)
+    - clean and test
+- photos of interface construction
+- setup instructions 
 
 Metropolacy
-
+- figure out speaker setup
+- photos of setup
+- photos of interface construction
+- setup instructions
+- practice!
 
 Hydrokardia
+- fix git submodule issue with server.js
+- redeploy node server
+- finish patch
+    - incorporate Anna's new lighting stuff
+    - clean and test
+    - revise presets
+- revise score
+- setup instructions
+- rehearse!
