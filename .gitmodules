@@ -1,0 +1,3 @@
+[submodule "Hydrokardia/hydrokardia-server"]
+	path = Hydrokardia/hydrokardia-server
+	url = https://github.com/ersheff/hydrokardia-server.git
