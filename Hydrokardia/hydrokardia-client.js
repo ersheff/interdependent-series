@@ -1,8 +1,7 @@
 const maxApi = require('max-api');
 const io = require('socket.io-client')
 
-//var socket = io.connect('http://localhost:8080', {reconnect: true});
-var socket = io.connect('https://telematic.herokuapp.com', {reconnect: true});
+var socket = io.connect('https://hydrokardia-server.herokuapp.com', {reconnect: true});
 
 // report connection status
 socket.on('connect', function () {
