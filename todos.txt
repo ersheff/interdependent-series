@@ -21,8 +21,6 @@ Metropolacy
 - practice!
 
 Hydrokardia
-- fix git submodule issue with server.js
-- redeploy node server
 - finish patch
     - incorporate Anna's new lighting stuff
     - clean and test
