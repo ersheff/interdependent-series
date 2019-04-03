@@ -17,3 +17,5 @@ This step is not necessary to perform *Hydrokardia* but is an option if you woul
 Setup and performance instructions are provided in the respective folders.
 
 -Eric Sheffield 2019
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Interdependent Series</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="ericsheffield.net" property="cc:attributionName" rel="cc:attributionURL">Eric Sheffield</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/ersheff/interdependent-series" rel="dct:source">https://github.com/ersheff/interdependent-series</a>.
