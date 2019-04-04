@@ -3,8 +3,13 @@
 # set DIR variable to directory of the startup script
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# make sure jack is not currently running
+killall jackd
+sleep 3
+
 # start netjack with 3 ins and 2 outs
 jackd -R -d net -l 2 -C 3 -P 2 &
+sleep 3
 jack_load audioadapter
 
 # open Max patch

@@ -39,6 +39,119 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 265.0, 727.0, 66.0, 22.0 ],
+					"text" : "cycle~ 440"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"items" : [ "MacBook Pro Speakers", ",", "JackRouter" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 571.5103759765625, 648.0, 169.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 571.5103759765625, 624.0, 169.0, 22.0 ],
+					"text" : "adstatus option 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"items" : [ "MacBook Pro Microphone", ",", "JackRouter" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 571.5103759765625, 727.0, 169.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 571.5103759765625, 703.0, 169.0, 22.0 ],
+					"text" : "adstatus option 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-59",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "n4m.monitor.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 913.0, 516.0, 400.0, 220.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 775.0, 439.0, 51.0, 22.0 ],
+					"text" : "connect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 775.0, 471.0, 237.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"autostart" : 1,
+						"defer" : 0,
+						"node" : "",
+						"npm" : "",
+						"watch" : 0
+					}
+,
+					"text" : "node.script master-connect.js @autostart 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -299,13 +412,13 @@
 					"presentation_rect" : [ 516.25, 79.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "out",
-							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "out",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "out",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1768,9 +1881,32 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"midpoints" : [ 581.0103759765625, 763.0, 562.5103759765625, 763.0, 562.5103759765625, 696.0, 581.0103759765625, 696.0 ],
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"midpoints" : [ 581.0103759765625, 684.0, 562.5103759765625, 684.0, 562.5103759765625, 617.0, 581.0103759765625, 617.0 ],
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-182", 2 ],
 					"midpoints" : [ 1075.0103759765625, 567.75, 165.077059427897126, 567.75 ],
 					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-115", 0 ]
 				}
 
 			}
@@ -1968,8 +2104,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -2040,6 +2190,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-41", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -2383,6 +2540,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-65" : [ "out", "out", 0 ],
@@ -2411,6 +2575,31 @@
 				"bootpath" : "~/Documents/interdependent-series/Resuscitation",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "master-connect.js",
+				"bootpath" : "~/Documents/interdependent-series/Resuscitation",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.monitor.maxpat",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resize_n4m_monitor_patcher.js",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
