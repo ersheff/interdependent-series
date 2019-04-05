@@ -6,6 +6,8 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 # make sure jack is not currently running
 killall jackd
 sleep 3
+killall jackd
+sleep 3
 
 # start jack server
 jackd -R -d coreaudio -p 32 &
