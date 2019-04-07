@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-68",
+					"items" : [ 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1147.0, 700.20428466796875, 78.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.5, 201.5, 78.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-90",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 1147.0, 673.0, 87.0, 23.0 ],
+					"text" : "adstatus iovs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-111",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -222,13 +251,13 @@
 					"presentation_rect" : [ 605.5, 428.0, 48.0, 86.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "to P1",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "to P1"
 						}
 
 					}
@@ -264,13 +293,13 @@
 					"presentation_rect" : [ 555.5, 428.0, 48.0, 86.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "interace",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out[1]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "interace"
 						}
 
 					}
@@ -382,7 +411,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 359.0, 31.5, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 203.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 89.5, 201.5, 100.0, 22.0 ]
 				}
 
 			}
@@ -608,11 +637,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.5103759765625, 693.0, 151.0, 74.0 ],
+					"patching_rect" : [ 123.5103759765625, 693.0, 160.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 180.5, 155.0, 353.0, 33.0 ],
-					"text" : "1. Ensure that \"JackRouter\" is selected for both input and output and that the correct player number is selected."
+					"text" : "1. Ensure that \"JackRouter\" is selected for both input and output, VS is 32, and that the correct player number is selected."
 				}
 
 			}
@@ -1017,13 +1046,13 @@
 					"presentation_rect" : [ 555.5, 239.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "out",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "out"
 						}
 
 					}
@@ -2086,7 +2115,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 804.0, 466.5, 288.0, 122.0 ],
-					"setfilter" : [ 1, 5, 1, 0, 0, 6333.28173828125, 3.268049955368042, 0.462305814027786, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 0, 0, 0, 84.326896667480469, 3.123015642166138, 0.585553705692291, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
+					"setfilter" : [ 1, 5, 1, 0, 0, 3735.5498046875, 0.543112814426422, 1.984992146492004, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 0, 0, 0, 70.952484130859375, 3.194710254669189, 0.537339985370636, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ]
 				}
 
@@ -2929,6 +2958,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"midpoints" : [ 1156.5, 736.215819628906274, 1135.694077000000107, 736.215819628906274, 1135.694077000000107, 661.807372628906251, 1156.5, 661.807372628906251 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -3054,6 +3091,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"source" : [ "obj-91", 0 ]
 				}
@@ -3089,8 +3133,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-65" : [ "out", "out", 0 ],
 			"obj-88" : [ "out[2]", "to P1", 0 ],
+			"obj-65" : [ "out", "out", 0 ],
 			"obj-70" : [ "out[1]", "interace", 0 ],
 			"parameterbanks" : 			{
 
@@ -3167,6 +3211,10 @@
 , 			{
 				"name" : "blues",
 				"default" : 				{
+					"elementcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.897845, 0.934085, 0.993504, 1.0 ],
+					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ],
 					"patchlinecolor" : [ 0.495624, 0.529709, 0.636972, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -3178,12 +3226,8 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ],
-					"accentcolor" : [ 0.691232, 0.993878, 0.999509, 1.0 ],
 					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
-					"elementcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
-					"color" : [ 0.897845, 0.934085, 0.993504, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 0.691232, 0.993878, 0.999509, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

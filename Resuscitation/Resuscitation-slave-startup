@@ -16,3 +16,6 @@ jack_load audioadapter
 
 # open Max patch
 open $DIR/Resuscitation-slave.maxpat
+sleep 3
+
+killall Terminal
