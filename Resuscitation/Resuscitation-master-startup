@@ -10,12 +10,10 @@ killall jackd
 sleep 3
 
 # start jack server
-jackd -R -d coreaudio -p 32 &
+jackd -R -d coreaudio -p 64 &
 sleep 3
 jack_load netmanager
 
 # open Max patch
 open $DIR/Resuscitation-master.maxpat
 sleep 3
-
-killall Terminal
