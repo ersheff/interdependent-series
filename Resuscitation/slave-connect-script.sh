@@ -14,3 +14,6 @@ jack_connect Max:in2 audioadapter:capture_2
 # local audio out to audio interface - mono signal mirrored to both 1 and 2
 jack_connect Max:out1 audioadapter:playback_1
 jack_connect Max:out1 audioadapter:playback_2
+
+# Eric Sheffield 2019
+# CC-BY-4.0

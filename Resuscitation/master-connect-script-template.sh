@@ -1,7 +1,8 @@
 #!/bin/bash
 export PATH=/usr/local/bin
 
-# replace 'playerx' with computer name for corresponding player
+# this file is provided as a template to save
+# the master-connect-script.sh file should be edited to work with your specific setup
 
 # connect audio interface inputs to Max
 jack_connect Max:in1 system:capture_1
@@ -20,3 +21,6 @@ jack_connect Max:in5 'player4':from_slave_1
 # local audio out to audio interface - mono signal mirrored to both 1 and 2
 jack_connect Max:out1 system:playback_1
 jack_connect Max:out1 system:playback_2
+
+# Eric Sheffield 2019
+# CC-BY-4.0

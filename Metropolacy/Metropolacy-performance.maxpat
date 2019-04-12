@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 128.0, 171.0, 501.0, 303.0 ],
+		"rect" : [ 127.0, 171.0, 501.0, 303.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -742,13 +742,13 @@
 					"logmarkers" : [ 0.0, 500.0, 5000.0 ],
 					"markercolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"maxclass" : "filtergraph~",
-					"nfilters" : 1,
+					"nfilters" : 2,
 					"numinlets" : 8,
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 758.699951171875, 198.0, 288.0, 122.0 ],
-					"setfilter" : [ 0, 5, 0, 0, 0, 6036.5361328125, 1.811162114143372, 0.5, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
+					"setfilter" : [ 1, 5, 1, 0, 0, 202.99639892578125, 0.729956388473511, 0.71034175157547, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 0, 0, 0, 4014.418701171875, 1.811162114143372, 0.5, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ]
 				}
 
@@ -2183,13 +2183,13 @@
 					"logmarkers" : [ 0.0, 500.0, 5000.0 ],
 					"markercolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"maxclass" : "filtergraph~",
-					"nfilters" : 3,
+					"nfilters" : 2,
 					"numinlets" : 8,
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 758.699951171875, 49.0, 288.0, 122.0 ],
-					"setfilter" : [ 2, 5, 1, 0, 0, 3735.5498046875, 0.555611312389374, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 70.952484130859375, 1.811162114143372, 0.446431636810303, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 0, 0, 0, 100.146377563476562, 1.443232655525208, 0.5, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
+					"setfilter" : [ 1, 5, 1, 0, 0, 88.5791015625, 1.443232655525208, 0.446431636810303, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 0, 0, 0, 3735.5498046875, 0.555611312389374, 2.996774911880493, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ],
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ]
 				}
 
@@ -5471,13 +5471,13 @@
 					"presentation_rect" : [ 395.0, 122.0, 48.0, 140.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "master",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "master"
+							"parameter_shortname" : "master",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}

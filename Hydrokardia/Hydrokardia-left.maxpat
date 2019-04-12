@@ -473,24 +473,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-91",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 861.0, 229.0, 243.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict video-params waves-video-params.json"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1877,7 +1859,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 263.333343505859375, 111.0, 98.0, 22.0 ],
+									"patching_rect" : [ 314.66668701171875, 111.0, 98.0, 22.0 ],
 									"text" : "mc.onepole~ 0.5"
 								}
 
@@ -1889,7 +1871,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 370.0, 111.0, 98.0, 22.0 ],
+									"patching_rect" : [ 472.66668701171875, 111.0, 98.0, 22.0 ],
 									"text" : "mc.onepole~ 0.5"
 								}
 
@@ -1961,7 +1943,7 @@
 									"numinlets" : 16,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 370.0, 79.0, 176.5, 22.0 ],
+									"patching_rect" : [ 472.66668701171875, 79.0, 176.5, 22.0 ],
 									"text" : "mc.pack~ 16"
 								}
 
@@ -1973,7 +1955,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 16,
 									"outlettype" : [ "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float", "float" ],
-									"patching_rect" : [ 370.0, 32.0, 176.5, 22.0 ],
+									"patching_rect" : [ 472.66668701171875, 32.0, 176.5, 22.0 ],
 									"text" : "unpack f f f f f f f f f f f f f f f f"
 								}
 
@@ -1985,7 +1967,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.0, 5.0, 51.0, 22.0 ],
+									"patching_rect" : [ 472.66668701171875, 5.0, 51.0, 22.0 ],
 									"text" : "r pMults"
 								}
 
@@ -1997,7 +1979,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 263.333343505859375, 32.0, 156.0, 22.0 ],
+									"patching_rect" : [ 314.66668701171875, 32.0, 156.0, 22.0 ],
 									"text" : "mc.list~ 0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
@@ -2009,7 +1991,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 263.333343505859375, 79.0, 90.0, 22.0 ],
+									"patching_rect" : [ 314.66668701171875, 79.0, 90.0, 22.0 ],
 									"text" : "mc.combine~ 2"
 								}
 
@@ -2021,7 +2003,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 263.333343505859375, 5.0, 54.0, 22.0 ],
+									"patching_rect" : [ 314.66668701171875, 5.0, 54.0, 22.0 ],
 									"text" : "r decays"
 								}
 
@@ -11692,20 +11674,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"source" : [ "obj-91", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
@@ -11845,13 +11813,12 @@
 , 			{
 				"name" : "blues",
 				"default" : 				{
-					"color" : [ 0.897845, 0.934085, 0.993504, 1.0 ],
 					"accentcolor" : [ 0.691232, 0.993878, 0.999509, 1.0 ],
-					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+					"color" : [ 0.897845, 0.934085, 0.993504, 1.0 ],
 					"elementcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"patchlinecolor" : [ 0.495624, 0.529709, 0.636972, 0.9 ],
-					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -11861,7 +11828,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

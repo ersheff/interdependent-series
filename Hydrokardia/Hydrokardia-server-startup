@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# set DIR variable to directory of the server
-cd /Users/ersheff/Documents/GitStuff/hydrokardia-server
+# set directory to directory of the server
+cd ~/hydrokardia-server
 
 /usr/local/bin/heroku ps:scale web=1
 
 /usr/local/bin/heroku open
+
+# Eric Sheffield 2019
+# CC-BY-4.0

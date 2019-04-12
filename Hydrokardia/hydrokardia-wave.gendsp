@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-600",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 91.0, 150.0, 47.0 ],
+					"text" : "hydrokardia-wave.gendsp\nEric Sheffield 2019\nCC-BY-4.0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1440",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

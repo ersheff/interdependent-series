@@ -1,3 +1,6 @@
+// Eric Sheffield 2019
+// CC-BY-4.0
+
 const maxApi = require('max-api');
 const io = require('socket.io-client')
 

@@ -17,3 +17,6 @@ jack_load audioadapter
 # open Max patch
 open $DIR/Resuscitation-slave.maxpat
 sleep 3
+
+# Eric Sheffield 2019
+# CC-BY-4.0
