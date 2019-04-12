@@ -4,6 +4,6 @@
 
 The instrument in *Resuscitation* is realized using realtime audio streaming between laptops over a local wired network.
 
-Fabrication instructions for the interfaces can be found [here](fabrication).
-Software and hardware setup instructions can be found [here](setup).
-Performance instructions can be found [here](performance).
+Fabrication instructions for the interfaces can be found [here](fabrication.md).
+Software and hardware setup instructions can be found [here](setup.md).
+Performance instructions can be found [here](performance.md).
