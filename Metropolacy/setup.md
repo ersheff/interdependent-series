@@ -31,7 +31,7 @@
 4. The microphone should be connected to input 2 of the audio interface. The speaker should be connected to output 3.
 5. If the speaker has a gain control or the audio interface has an output level control for output 3, tests should be performed in advance for section 1 of the composition to set these levels for quick feedback response without being excessively loud.
 
-<img src="../images/metropolacy-setup.png" width="754" height="720" />
+<img src="../images/metropolacy-setup.png" width="377" height="360" />
 
 #### Laptop Setup
 1. Laptop, MIDI controller, piezo-based interface, and audio interface should all be set on a tray/table at a comfortable height. Placement of the components is up to the performer – however, it is suggested to put the piezo-based interface to the right of the MIDI controller for right-handed performers. 
