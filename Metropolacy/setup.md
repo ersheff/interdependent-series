@@ -30,7 +30,9 @@
 3. The speaker should be placed under the snare drum, facing up, across from the performer and as close to the bottom head as possible. Mounting of the speaker is at the discretion of the perfofmer – suggestions include: a spare snare drum stand, a platform set on top of a conga stand, a spare speaker to act as a stand, etc.
 4. The microphone should be connected to input 2 of the audio interface. The speaker should be connected to output 3.
 5. If the speaker has a gain control or the audio interface has an output level control for output 3, tests should be performed in advance for section 1 of the composition to set these levels for quick feedback response without being excessively loud.
-![*Metropolacy* snare drum setup diagram](../images/metropolacy-setup.png)
+
+<img src="../images/metropolacy-setup.png" width="754" height="720" />
+
 #### Laptop Setup
 1. Laptop, MIDI controller, piezo-based interface, and audio interface should all be set on a tray/table at a comfortable height. Placement of the components is up to the performer – however, it is suggested to put the piezo-based interface to the right of the MIDI controller for right-handed performers. 
 2. The piezo-based interface should be connected to input 1 of the audio interface. Outputs 1-2 should go to the house mixer. MIDI controller and audio interface should be connected to their respective inputs (e.g. USB, Thunderbolt, etc.).
