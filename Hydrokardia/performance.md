@@ -1,6 +1,6 @@
 ## Hydrokardia Performance Instructions
 
-Hydrokardia is a text and graphic score. It is read from top to bottom.
+*Hydrokardia* uses a text and graphic score. It is read from top to bottom.
 
 The left-most time column is a general guide for progressing though the composition. A timer is provided in the performance patch.
 
