@@ -16,7 +16,7 @@ The top staff indicates rhythms to be played on the piezo-based interface with t
 
 The bottom staff includes all MIDI controller actions and is designed to emulate guitar tablature.
 
-The lowest line corresponds to the left-most column of the MIDI controller grid, second lowest to the second column from left, etc.
+The lowest line of the bottom staff corresponds to the left-most column of the MIDI controller grid, second lowest to the second column from left, etc.
 Numbers on each line indicate which pad to engage in that column for virtual string pitch changes, starting from 1 at the bottom. Pads only need to be pressed once to change the pitch.
 
 **P** and **S** symbols indicate when to turn piezo and snare mics on or off for the respective string. This is done using the two control buttons at the top of each column – the top-most button corresponds to the piezo input, the one right below it corresponds to the snare input.
