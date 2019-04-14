@@ -26,3 +26,5 @@ Paranthetical numbers are simply reminders for which pads should be engaged in t
 Lines above the tablature staff indicate feedback, which is accomplished by applying pressure to the MIDI pads. The amount of pressure is mapped to the gain for the signal going to the speaker under the snare drum, so feedback can be controlled by regulating pressure as needed.
 
 There are no specific notations for "crunch," but the slider on the Push is mapped to a value that controls the non-linearity of the virtual strings. This is intentionally used towards the end of the composition (indicated via text instructions) and should also be used judiciouly during feedback sections to add some timbral complexity and help regulate the feedback.
+
+<img src="../images/metropolacy-notation.png" width="800" height="240" />
