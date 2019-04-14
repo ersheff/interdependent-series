@@ -2,7 +2,7 @@
 
 
 ### **Software Requirements**
-- Max 8, which can be downloaded from [Cycling 74's website](https://cycling74.com) (Performance of *Metropolacy* does not require a license for Max and can be performed without authorizing the software).
+- Max 8, which can be downloaded from [Cycling 74's website](https://cycling74.com) (Performance of *Resuscitation* does not require a license for Max and can be performed without authorizing the software).
 - Jack2 audio API, which can be downloaded from [here](http://jackaudio.org).
 
 

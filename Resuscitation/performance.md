@@ -8,6 +8,6 @@ Notes within the staff are gestures played on the plate. Notes in the top space 
 
 Notes below the staff are damping gestures performed by pressing the FSR sensor. Rhythms should be respected as much as possible (i.e. onset and release should closely adhere to notated durations).
 
-Rehearsal markings double as laptop preset indicators. The correspnding number key on the keyboard should be pressed on the downbeat of the measure where the rehearsal marking is placed.
+Rehearsal markings double as laptop preset indicators. The corresponding number key on the keyboard should be pressed on the downbeat of the measure where the rehearsal marking is placed.
 
 <img src="../images/resuscitation-notation.png" width="800" height="300" />
