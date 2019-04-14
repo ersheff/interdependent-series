@@ -10,9 +10,9 @@ To download these compositions, including scores and all supplemental content, s
 Or, if you are familiar with git, you can clone into a local repository by entering the following in Terminal:\
 ``git clone https://github.com/ersheff/interdependent-series.git``
 
-If you would like to download the server files for *Hydrokardia*, you will then also need to pull submodules with:\
+If you need to download the server files for *Hydrokardia*, you will then also need to pull submodules with:\
 ``git submodule update --init --recursive``\
-This step is not necessary to perform *Hydrokardia* but is an option if you would like to examine the server file content.
+or download the repo [here](https://github.com/ersheff/hydrokardia-server).
 
 Setup and performance instructions are provided in the respective folders.
 
