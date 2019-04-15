@@ -1,9 +1,9 @@
 # Interdependent Series
 A trio of compositions featuring interdependent collaborative performance with physics-based virtual instruments.
 
--   *Resuscitation* – laptop/percussion quartet
--   *Metropolacy* – duet for snare drum and laptop/percussion
--   *Hydrokardia* – telematic laptop duet
+-   [*Resuscitation*](Resuscitation) – laptop/percussion quartet
+-   [*Metropolacy*](Metropolacy) – duet for snare drum and laptop/percussion
+-   [*Hydrokardia*](Hydrokardia) – telematic laptop duet
 
 To download these compositions, including scores and all supplemental content, simply use the "Download ZIP" option in the "Clone or Download" menu.
 
