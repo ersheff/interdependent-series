@@ -51,8 +51,8 @@
 
 
 #### Wood work
-***All pilot holes should be drilled 1/2" deep using 7/64" bit. All through holes should be drilled using 3/16" bit.***  
-***The following steps should be repeated 4 times.***
+*All pilot holes should be drilled 1/2" deep using 7/64" bit. All through holes should be drilled using 3/16" bit.*  
+*The following steps should be repeated 4 times.*
 1. Cut 10" and 1" pieces from 1" X 6" board. Reduce width of 1" piece to 3".
  
     <img src="../images/res-boards.jpg" width="284"/>
@@ -68,7 +68,7 @@
 
 
 #### Assembly and finishing touches
-***The following steps should be repeated 4 times.***
+*The following steps should be repeated 4 times.*
 1. Sand the surface of the 2-gang plastic plate until it is evenly textured.
 2. Tape the piezo disc to the bottom of the 2-gang plate. Angle the disc so that the wire passes near one corner of the plate. Try to only adhere tape to the metal part of the disc to avoid damaging the inner part. Add an extra piece of tape to secure the cable.
     
