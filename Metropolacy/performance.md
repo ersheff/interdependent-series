@@ -21,7 +21,7 @@ Numbers on each line indicate which pad to engage in that column for virtual str
 
 **P** and **S** symbols indicate when to turn piezo and snare mics on or off for the respective string. This is done using the two control buttons at the top of each column – the top-most button corresponds to the piezo input, the one right below it corresponds to the snare input.
 
-<img src="../images/metro-push.jpg" width="640"/>
+<img src="../images/metro-push-nums.jpg" width="640"/>
 
 Paranthetical numbers are simply reminders for which pads should be engaged in that measure.
 
