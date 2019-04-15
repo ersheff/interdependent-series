@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set directory to directory of the server
-cd ~/hydrokardia-server
+cd ~/Documents/GitStuff/hydrokardia-server
 
 /usr/local/bin/heroku ps:scale web=1
 
