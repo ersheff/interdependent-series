@@ -38,7 +38,7 @@
 *All pilot holes should be drilled 1/2" deep using 7/64" bit.*  
 1. Drill 4 pilot holes in the wood square for the electrical plate. Plate should be centered.
 
-    <img src="../images/metro-plate.jpg" width="284"/>
+    <img src="../images/metro-plate-pilot.jpg" width="284"/>
 2. Send edges and corners as desired.
 
 
