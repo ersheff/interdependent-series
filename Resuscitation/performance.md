@@ -10,4 +10,4 @@ Notes below the staff are damping gestures performed by pressing the FSR sensor.
 
 Rehearsal markings double as laptop preset indicators. The corresponding number key on the keyboard should be pressed on the downbeat of the measure where the rehearsal marking is placed.
 
-<img src="../images/resuscitation-notation.png" width="800" height="300" />
+<img src="../images/resuscitation-notation.png" width="800"/>

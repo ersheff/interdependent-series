@@ -39,23 +39,23 @@
 1. Cut audio cable into 8 equal lengths, each approximately 14" long.
 2. Strip approximately 3/4" of the outer jacket from each end of all 8 segments, then strip a small amount from the end of each wire.
 3. On one end of 4 of the cable segments, solder the red wire to one of the crimp pins and both the black and stranded wires to another crimp pin.
-<img src="../images/res-crimp.jpg" width="320" height="284" />
+<img src="../images/res-crimp.jpg" width="320"/>
 4. On one end of the other 4 cable segments, solder the red wire to the inner part of a piezo disc and both the black and stranded wires to the outer metal part of the disc.
-<img src="../images/res-disc.jpg" width="320" height="284" />
+<img src="../images/res-disc.jpg" width="320"/>
 5. Solder XLR connectors to the bare end of all 8 cable segments. The stranded wire goes to pin 1, red wire to pin 2, black wire to pin 3. You should now have 4 piezo disc to XLR cables and 4 crimp pin to XLR cables.
 6. For each of the 4 crimp pin to XLR cables, insert the legs of one of the film piezos into the crimp pins and squeeze them tight with needle nose pliers. DO NOT solder directly to the film piezo as this will damage it. Cover any exposed metal between the red wire and the film piezo with a small bit of electrical or gaffer tape.
-<img src="../images/res-film.jpg" width="320" height="284" />
+<img src="../images/res-film.jpg" width="320"/>
 
 
 #### Wood work
 ***All pilot holes should be drilled 1/2" deep using 7/64" bit. All through holes should be drilled using 3/16" bit.***
 ***The following steps should be repeated 4 times.***
 1. Cut 10" and 1" pieces from 1" X 6" board. Reduce width of 1" piece to 3".
-<img src="../images/res-boards.jpg" width="284" height="320" />
+<img src="../images/res-boards.jpg" width="284"/>
 2. Drill 4 pilot holes in 10" piece for electrical plate. Plate should be centered width-wise at one end.
-<img src="../images/res-plate-holes.jpg" width="284" height="320" />
+<img src="../images/res-plate-holes.jpg" width="284"/>
 3. Drill 4 pilot holes for mending plates, 2 each at the end of both pieces. On the 10" piece, these holes should be at the opposite end of the plate pilot holes.
-<img src="../images/res-mend-holes.jpg" width="320" height="284" />
+<img src="../images/res-mend-holes.jpg" width="320"/>
 4. Drill 2 through holes for the longer wood screws to pass through the 1" piece, inset 1/4" from each end and inset 1/2" from each long edge (centered).
 5. Drill 2 pilot holes in 10" piece positioned so that the 1" piece can be screwed on top of the board flush with the end opposite the plate pilot holes. This measurement should be done manually to account for variations in board widths.
 6. Send edges and corners as desired.
@@ -77,16 +77,16 @@
 7. Cut 1" square pieces of foam. Push 2 of the 1 1/2" wood screws through the 1" piece of wood and through the foam.
 <img src="../images/res-long-screws.jpg" width="320"/>
 8. Screw the plastic plate onto the 10" board with the piezo and foam underneath. Screw the 1" piece of wood to the other end of the board, ensuring that the cable from the piezo passes underneath, between the foam squares. All of these screws should be just hand tightened - DO NOT over tighten. Afix the Arduino board assembly just above the plate on the left side and afix the FSR to the top left corner of the plate.
-<img src="../images/res-top-view.jpg" width="284" height="320" />
+<img src="../images/res-top-view.jpg" width="284"/>
 9. Loosely screw the 2 mending plates onto the end of the assembly with the foam facing inside on the top plate. Insert a film piezo cable through the 2 mending plates so that the top plate holds the film piezo in place and the bottom one holds the cable in place. The film piezo should stick out approximately 1/2" from the top. Again, hand tighten but do not overtighten.
-<img src="../images/res-mending-plates.jpg" width="320" height="284" />
+<img src="../images/res-mending-plates.jpg" width="320"/>
 10. Afix 4 rubber feet to the bottom corners.
-<img src="../images/res-feet.jpg" width="284" height="320" />
+<img src="../images/res-feet.jpg" width="284"/>
 11. Cut the snare wires in half (this is only done once).
-<img src="../images/res-snare-wires.jpg" width="284" height="320" />
+<img src="../images/res-snare-wires.jpg" width="284"/>
 12. Load the "Resuscitation-FSR" sketch onto the Arduino. Confim that it is working by opening the serial monitor and pressing the FSR. You should see the values changing.
 13. The interface is now fully assembled.
-<img src="../images/res-assembled.jpg" width="320" height="284" />
+<img src="../images/res-assembled.jpg" width="320"/>
 
 
 

@@ -27,4 +27,4 @@ Lines above the tablature staff indicate feedback, which is accomplished by appl
 
 There are no specific notations for "crunch," but the slider on the Push is mapped to a value that controls the non-linearity of the virtual strings. This is intentionally used towards the end of the composition (indicated via text instructions) and should also be used judiciouly during feedback sections to add some timbral complexity and help regulate the feedback.
 
-<img src="../images/metropolacy-notation.png" width="800" height="240" />
+<img src="../images/metropolacy-notation.png" width="800"/>
