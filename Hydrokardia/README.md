@@ -11,3 +11,5 @@ Software and hardware setup instructions can be found [here](setup.md).
 Performance instructions can be found [here](performance.md).
 
 Video recording of a live *Hydrokardia* performance can be found here (COMING SOON).
+
+<img src="../images/hydrokardia-wave-nolabels.png" width="640"/>
