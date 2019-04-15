@@ -28,12 +28,13 @@
 ### **Startup procedure**
 1. Connect both laptops to the Internet.
 2. Establish connections between tablets and laptops. This can either be done by putting both devices on the same network or using the TouchOSC Bridge application to create a wired connection. The latter option is slightly more complicated but will perform better.
-    - For the first wireless option, enter your laptop's IP address in the OSC Connections menu in the TouchOSC app. Set the outgoing port to 8000 and the incoming port to 9000.
-    - For the second wired option, first ensure that the TouchOSC Bridge helper application is running on your laptop, then connect your tablet to your laptop using USB. Next, open the TouchOSC Bridge menu in the TouchOSC app on the mobile device. In this menu, if connected properly, the host name of your laptop should show up. Tap this host name – your laptop's IP address should automtically appear. Once it does, go back into the OSC Connections menu and enter the same IP address for the Host. Set the outgoing port to 8000 and the incoming port to 9000.
+    - For the first wireless option, enter your laptop's IP address in the OSC Connections menu in the TouchOSC app.
+    - For the second wired option, first ensure that the TouchOSC Bridge helper application is running on your laptop, then connect your tablet to your laptop using USB. Next, open the TouchOSC Bridge menu in the TouchOSC app on the mobile device. In this menu, if connected properly, the host name of your laptop should show up. Tap this host name – your laptop's IP address should automtically appear. Once it does, go back into the OSC Connections menu and enter the same IP address for the Host.
+    - For either option, set the outgoing port to 8000 and the incoming port to 9000 on player A's tablet, and set the outgoing port to 8001 and the incoming port to 9001 on player B's tablet. Different ports are used to prevent issues with local performance (i.e. all devices on the same local network).
 3. Start up your *Hydrokardia* server by double-clicking "Hydrokardia-server-startup."
 4. Player A, controlling the left half of the wave and the audio parameters, should open "Hydrokardia-left.maxpat." Player B, controlling the right half of the wave and the video parameters, should open "Hydrokardia-right.maxpat."
 5. Once the patch is open, confirm that it is connected to the server. You should see a fromServer "welcome" message in the Max console window. You can also enter chat messages to communicate with the remote player. Their responses will show up in the console with a "~" flag. If none of this appears to be working, try clicking the "restart client" button.
 6. Test TouchOSC communication from your tablet by using the provided testing module.
 7. Click the speaker icon to start audio processing.
-8. Click the "start countdown" button to intiate a 5 second countdown and synchronize timers at both locations.
+8. Player A clicks the "start countdown" button to intiate a 5 second countdown, synchronize timers at both locations and start the video processing.
 9. Begin when the timer hits 0:00!

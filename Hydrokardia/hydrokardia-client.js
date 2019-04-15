@@ -4,7 +4,7 @@
 const maxApi = require('max-api');
 const io = require('socket.io-client')
 
-var socket = io.connect('https://hydrokardia-server.herokuapp.com', {reconnect: true});
+var socket = io.connect('https://your-hydrokardia-server.herokuapp.com', {reconnect: true});
 
 // report connection status
 socket.on('connect', function () {
