@@ -55,7 +55,7 @@
     <img src="../images/metro-feet.jpg" width="284"/>
 5. Screw the plastic plate onto the board with the piezo and foam underneath. All of these screws should be just hand tightened - DO NOT over tighten. The interface is now fully assembled.
 
-    <img src="../images/metro-assembled.jpg" width="284"/>
+    <img src="../images/metro-assembled.jpg" width="640"/>
 
 
 
