@@ -67,15 +67,15 @@
 2. Tape the piezo disc to the bottom of the 2-gang plate. Angle the disc so that the wire passes near one corner of the plate. Try to only adhere tape to the metal part of the disc to avoid damaging the inner part. Add an extra piece of tape to secure the cable.
 <img src="../images/res-piezo-tape.jpg" width="320"/>
 3. Cut a piece of foam to fit under the 2-gang plastic plate, approximately 4 3/4" square. Cut off one corner of the foam square.
-<img src="../images/res-piezo-big-foam.jpg" width="320" height="284" />
+<img src="../images/res-piezo-bigfoam.jpg" width="320"/>
 4. Place the foam under the plate, aligning the cut corner with the cable from the piezo. Insert 4 of the short wood screws through the plate holes and push them through the foam.
-<img src="../images/res-foam-under-plate.jpg" width="320" height="284" />
+<img src="../images/res-foam-under-plate.jpg" width="320"/>
 5. Glue small pieces of foam to one of the mending plates and between the mending plate pilot holes on the 1" piece of wood.
-<img src="../images/res-film-foam.jpg" width="320" height="284" />
+<img src="../images/res-film-foam.jpg" width="320"/>
 6. Insert the Arduino into the breadboard. Put a 10k ohm resistor across A7 (analog input 7) and ground. Insert the legs of the FSR into A7 and 5v.
-<img src="../images/res-FSR.jpg" width="284" height="320" />
+<img src="../images/res-FSR.jpg" width="284"/>
 7. Cut 1" square pieces of foam. Push 2 of the 1 1/2" wood screws through the 1" piece of wood and through the foam.
-<img src="../images/res-long-screws.jpg" width="320" height="284" />
+<img src="../images/res-long-screws.jpg" width="320"/>
 8. Screw the plastic plate onto the 10" board with the piezo and foam underneath. Screw the 1" piece of wood to the other end of the board, ensuring that the cable from the piezo passes underneath, between the foam squares. All of these screws should be just hand tightened - DO NOT over tighten. Afix the Arduino board assembly just above the plate on the left side and afix the FSR to the top left corner of the plate.
 <img src="../images/res-top-view.jpg" width="284" height="320" />
 9. Loosely screw the 2 mending plates onto the end of the assembly with the foam facing inside on the top plate. Insert a film piezo cable through the 2 mending plates so that the top plate holds the film piezo in place and the bottom one holds the cable in place. The film piezo should stick out approximately 1/2" from the top. Again, hand tighten but do not overtighten.
