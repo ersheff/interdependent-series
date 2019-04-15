@@ -65,12 +65,16 @@
 ***The following steps should be repeated 4 times.***
 1. Sand the surface of the 2-gang plastic plate until it is evenly textured.
 2. Tape the piezo disc to the bottom of the 2-gang plate. Angle the disc so that the wire passes near one corner of the plate. Try to only adhere tape to the metal part of the disc to avoid damaging the inner part. Add an extra piece of tape to secure the cable.
+    
     <img src="../images/res-piezo-tape.jpg" width="320"/>
 3. Cut a piece of foam to fit under the 2-gang plastic plate, approximately 4 3/4" square. Cut off one corner of the foam square.
+    
     <img src="../images/res-piezo-bigfoam.jpg" width="320"/>
 4. Place the foam under the plate, aligning the cut corner with the cable from the piezo. Insert 4 of the short wood screws through the plate holes and push them through the foam.
+    
     <img src="../images/res-foam-under-plate.jpg" width="320"/>
 5. Glue small pieces of foam to one of the mending plates and between the mending plate pilot holes on the 1" piece of wood.
+    
     <img src="../images/res-film-foam.jpg" width="320"/>
 6. Insert the Arduino into the breadboard. Put a 10k ohm resistor across A7 (analog input 7) and ground. Insert the legs of the FSR into A7 and 5v.
     <img src="../images/res-FSR.jpg" width="284"/>
