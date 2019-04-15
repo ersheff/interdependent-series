@@ -103,7 +103,7 @@
 12. Load the "Resuscitation-FSR" sketch onto the Arduino. Confim that it is working by opening the serial monitor and pressing the FSR. You should see the values changing.
 13. The interface is now fully assembled.
 
-    <img src="../images/res-assembled.jpg" width="320"/>
+    <img src="../images/res-assembled.jpg" width="640"/>
 
 
 
