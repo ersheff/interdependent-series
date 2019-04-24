@@ -8,8 +8,6 @@ Software and hardware setup instructions can be found [here](setup.md).
 
 Performance instructions can be found [here](performance.md).
 
-Video recording of a live *Metropolacy* performance can be found here (COMING SOON).
+Video recording of a live *Metropolacy* performance can be found [here](https://youtu.be/V1vH2ZKtNVY).
 
 <img src="../images/metropolacy-mental-model.png" width="640"/>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V1vH2ZKtNVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
