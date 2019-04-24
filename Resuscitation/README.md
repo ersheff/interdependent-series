@@ -10,6 +10,6 @@ Software and hardware setup instructions can be found [here](setup.md).
 
 Performance instructions can be found [here](performance.md).
 
-Video recording of a live *Resuscitation* performance can be found here (COMING SOON).
+Video recording of a live *Resuscitation* performance can be found [here](https://youtu.be/dxOa_NOT9Rw).
 
 <img src="../images/resuscitation-mental-model.png" width="640"/>
